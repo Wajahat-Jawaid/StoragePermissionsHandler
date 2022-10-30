@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Storage Permissions Handler</string>
+
+    <!-- Permission dialog -->
+    <string name="permission_required_title">Permission required</string>
+    <string name="permission_required_message">Allow permission for storage access</string>
+    <string name="permission_required_button">Allow</string>
+</resources>
