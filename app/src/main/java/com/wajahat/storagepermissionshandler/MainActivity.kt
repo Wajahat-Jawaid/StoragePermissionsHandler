@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
      * */
     @RequiresApi(Build.VERSION_CODES.R)
     private val resultLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
-        if (Environment.isExternalStorageManager()) {
+        if(it.resultCode == RESULT_OK) {
             // Proceed with your work
         } else {
             showPermissionAllowDialog()
